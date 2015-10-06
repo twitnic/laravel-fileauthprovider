@@ -1,7 +1,7 @@
 <?php namespace Twitnic\FileAuth;
 
 use App\User;
-use App\Http\Middleware\FileUserProvider;
+use Twitnic\FileAuth;
 use Illuminate\Support\ServiceProvider;
 
 class FileAuthProvider extends ServiceProvider {
