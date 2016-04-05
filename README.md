@@ -16,11 +16,21 @@ Require `twitnic/laravel-fileauthprovider` in composer.json and run `composer up
 
 Composer will download the package. After the package is downloaded, open `config/app.php` and add the service provider:
 
+In Laravel 5.0:
+
     'providers' => array(
         ...
         'Twitnic\FileAuth\FileAuthProvider',
     ),
     
+In Laravel 5.1:
+
+    'providers' => array(
+        ...
+        'Twitnic\FileAuth\FileAuthProvider::class',
+    ),
+    
+
 ### Usage
 
 #### .env File:
