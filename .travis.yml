@@ -29,7 +29,7 @@ install:
   - export PACKAGE_PROVIDER="
     Twitnic\\\\FileAuth\\\\FileAuthProvider::class"
   #specify the seed class to seed the data
-  - export SEED_CLASS=TestSeeds::class
+  #- export SEED_CLASS=TestSeeds::class
   #specify the package to test
   - export PACKAGE_NAME=twitnic/laravel-fileauthprovider
   #run the setup script
