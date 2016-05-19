@@ -27,7 +27,7 @@ install:
   - export DB_USERNAME=travis DB_DATABASE=hyn DB_PASSWORD= QUEUE_DRIVER=sync
   # specify the laravel service providers to insert
   - export PACKAGE_PROVIDER="
-    Twitnic\\\\FileAuth\\\\FileAuthProvider::class
+    Twitnic\\\\FileAuth\\\\FileAuthProvider::class"
   #specify the seed class to seed the data
   - export SEED_CLASS=TestSeeds::class
   #specify the package to test

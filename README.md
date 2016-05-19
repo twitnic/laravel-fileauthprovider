@@ -52,3 +52,6 @@ Open `config/auth.php` and set appropiate driver and model:
 
 Use authentication as explained on Laravel's [Authentication](http://laravel.com/docs/5.0/authentication)
 chapter.
+
+
+[![Build Status](https://travis-ci.org/twitnic/laravel-fileauthprovider.svg?branch=master)](https://travis-ci.org/twitnic/laravel-fileauthprovider)
